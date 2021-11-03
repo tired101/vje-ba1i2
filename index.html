@@ -1,73 +1,126 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Formular</title>
-	<link rel="stylesheet" href="stil.css">
+<title> Prvi i drugi zadatak</title>
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stil.css">
+ 
+<style>
+body {
+background-color: darkseagreen
+}
+ p, h1  {
+ width: 500px;
+ color: black;
+ }
+ 
+	h1{
+		text-transform: uppercase
+	}
+	
+ p{
+ text-align: justify;
+ font-family: Helvetica;
+ }
+ 
+ .svi {
+ margin-left: 50px}
+ 
+
+ 
+ p[id="prvi"] {
+  color: darkgreen
+ }
+ 
+ p[id="drugi"] {
+ font-weight:bold;
+
+ }
+ 
+ p[id="treći"]{
+ font-style: italic}
+</style>
 </head>
-
+	
 <body>
-	<form action="mailto:dorotea.turkalj@gmail.com" method="post" enctype="text/plain" accept-charset="UTF-8" autocomplete="on">
-	<label for="ime">Ime</label>
-	<input type="text" id="ime"><br>
-	<label for="prezime">Prezime</label>
-	<input type="text" id="prezime">	
-	<label for="email">E-mail</label>
-	<input type="email" id="email">
-	<label for="lozinka">Lozinka</label>
-	<input type="email" id="lozinka" maxlength="4">
-<label for="date" >Datum rođenja</label>
-<input type="date" id="rodendan">	
-<label for="mobilni">Telefon</label>
-<input type="number" id="mobilni">
-<label for="vrijeme">Vrijeme</label>
-<input type="time" id="vrijeme">
+<h1 class="svi">Voće</h1>
+<p id="prvi" class="odlomak svi"> 
+Voće je zbirna imenica koja podrazumijeva plodove ili sjemenke najčešće višegodišnjih stabala i grmova koji se uglavnom mogu jesti prijesni. Botanička razlika između voća i povrća je ta da je voće sjemenkasta struktura koja se razvija iz oplođenog cvijeta, dok povrće nastaje iz drugih dijelova biljke, poput korijena i lišća. Paprike, rajčica, tikvice, patlidžan, grašak, bamija, maslina, bundeve i krastavci su isto plodovi koji pripadaju voću, ali pošto nisu slatki niti kiseli, kulinarski se smatraju i pripremaju kao povrće. 
+</p>
+<p id="drugi" class="odlomak svi">
+Voće su plodovi kultiviranih voćaka ili samoniklih višegodišnjih biljaka namijenjenih ljudskoj prehrani u svježem ili prerađenom stanju. Uspijeva na svim kontinentima i u svim klimatskim područjima gdje za pojedine vrste postoji odgovarajući sastav tla i klimatski uvjeti. Od svih namirnica biljnog podrijetla voće se, zbog svoje boje i oblika, mirisa, dobra okusa, biološke i prehrambene vrijednosti nalazi na jelovnicima od najstarijih vremena do danas, a najviše se cijeni zbog svojeg kemijskog sastava.
+</p>
+<p id="treći" class="odlomak svi">
+Energetska vrijednost voća nije velika jer manji udio otpada na energijske sastojke. Najhranjiviji i najvredniji sastojci voća su šećeri. Ljudski ih organizam najlakše apsorbira pa voće ne samo što osvježava, već je i lako probavljivo. Više šećera od prosjeka imaju sve vrste sušenog voća, a osobito datulje. U voću ima i celuloze. Iako je neprobavljiva, ona vrlo dobro djeluje na rad crijeva. Celuloza zajedno s pektinskim tvarima čini osnovnu strukturu biljnog tkiva. Pektin je također polisaharid. On gusto ukuhanom voću daje sposobnost želiranja. U voću ima otprilike 1% bjelančevina, nešto manje masti.
+ </p>
+ 
+ <section id="zadatak1">
+	 <p>Voće razlikujemo prema:</p>
+	 <ol>
+	 <li>vremenu sazrijevanja</li>
+	 <li>stupnju sazrijevanja</li>
+		 <li>stanju</li>
+	 <li>namjeni </li>
+	 <li>podrijetlu proizvodnje</li>
+	</ol>
 	
-		
-		
-	<fieldset>
-		<p>Spol</p>
-		<input type="radio" value="M" id="M" name="spol"><label for="M">muški</label>
-		<input type="radio" value="F" id="F" name="spol"><label for="F">ženski</label>
-	</fieldset>	
-		
-		
-	<fieldset>
-		<p>Odaberi najljepše voće</p>
-		<input type="checkbox" value="banana" id="banana" name="voće"><label for="banana">banana</label>
-		<input type="checkbox" value="kruška" id="kruška" name="voće"><label for="kruška">kruška</label>
-		<input type="checkbox" value="malina" id="malina" name="voće"><label for="malina">malina</label>
-		<input type="checkbox" value="ananas" id="ananas" name="voće"><label for="ananas">ananas</label>
-	</fieldset>		
+	
+	</section>
 
-<label for="voće">Izaberite jabučasto voće</label>
-		<select name="voće">
-		<option>Kupina</option>
-		<option>Jabuka</option>
-		<option>Ribiz</option>	
-		</select>
-		
-		
-<form>	
-  <label for="boja">Odaberite boju najdražeg voća</label>	
-		<input type="color" id="boja" name="boja">
-</form>
-		
-	<input type="reset" value="Poništi">	
-	<input type="submit" value="Prihvati">
-	
-		
+ 
+<section id="zadatak2">
+	<p><span>Prema podrijetlu proizvodnje voće dijelimo na:</span></p>
+	<ol>
+	<li>Kontinentalno voće</li>
+		 <li>Južno voće</li>
+	</ol>
 	
 	
-	</form>
+	</section>	
+ 
 	
-	
-	
-	
-						 
-	
-	
-	
-	
+ 
+ 
+   
+<section id="zadatak3">
+	<h3 class="svi">Kontinentalno voće</h3>
+ <ul>
+	<li>Jabučasto voće
+	 <ul>
+		<li>Jabuke</li>
+		<li>Kruške</li>
+		<li>Dunje</li>
+		</ul>
+	 </li>
+	 <li>
+	 Koštunjičavo voće
+	     <ul>
+		 <li>Šljive</li>
+		 <li>Višnje</li>
+		 <li>Breskve</li>
+		 </ul>
+	 </li>
+	<li>Bobičasto voće
+	 <ul>
+		<li>Grožđe</li>
+		<li>Borovnice</li>
+		<li>Ribiz</li>
+		</ul>
+	 </li>
+	 <li>Jagodasto voće
+	 <ul>
+		 <li>Jagode</li>
+		 <li>Maline</li>
+		 <li>Kupine</li>
+		 </ul>
+	 </li>
+	</section>
+
+ 
+ 
+ 
+ 
+ 
 </body>
+
 </html>
